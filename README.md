@@ -4,8 +4,8 @@ topic-specific projects and end-to-end project
 
 
 ## Databricks-Workspace-Setup
-Databricks Workspace Setup and Data Loading
-Objective: Setted up a cluster, created a notebook, and loaded sample data
+### Databricks Workspace Setup and Data Loading
+### Objective: Setted up a cluster, created a notebook, and loaded sample data
 
 
 
