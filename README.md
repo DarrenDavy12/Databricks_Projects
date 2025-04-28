@@ -17,6 +17,12 @@ Inside Azure portal, I created a databricks workspace.
 ![Image](https://github.com/user-attachments/assets/a88f6a81-5806-422f-9a5f-ff971e009f6e)
 
 
+
+Launched the workspace and created a cluster, showing that it is up and running.
+
+![image](https://github.com/user-attachments/assets/cf216769-df1a-4111-afda-2b0d27ee31be)
+
+
 ## Step 2: Loaded sample data (e.g., NYC Taxi dataset)
 data_path = "dbfs:/databricks-datasets/nyctaxi/tripdata/yellow/yellow_tripdata_2019-01.csv.gz"
 df = spark.read.csv(data_path, header=True, inferSchema=True)
