@@ -11,6 +11,8 @@ topic-specific projects and end-to-end project
 
 ## Step 1: Created a cluster (done via UI, ensured it's running)
 
+Inside Azure portal I created a databricks workspace.
+![Image](https://github.com/user-attachments/assets/a88f6a81-5806-422f-9a5f-ff971e009f6e)
 
 
 ## Step 2: Loaded sample data (e.g., NYC Taxi dataset)
