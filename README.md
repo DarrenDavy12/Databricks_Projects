@@ -25,8 +25,6 @@ It was successfully created.
 
 --- 
 
-Launched the workspace and created a cluster, showing that it is up and running.
-
 
 
 ## Step 2: Loaded sample data (e.g., NYC Taxi dataset)
