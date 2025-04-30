@@ -41,3 +41,6 @@ df.write.mode("overwrite").parquet("/mnt/sample-data/nyc-taxi")
 
 ## Step 4: Displayed sample data
 display(df.limit(10))
+
+
+![Image](https://github.com/user-attachments/assets/3dcf3fd5-f622-46b7-9150-7f7a71b7d1d1)
