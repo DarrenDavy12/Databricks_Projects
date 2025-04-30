@@ -1,4 +1,4 @@
-# Databricks_Certification
+# Databricks_Projects_covering_associate_cert
 topic-specific projects and end-to-end project
 
 
