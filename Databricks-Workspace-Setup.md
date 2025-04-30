@@ -1,4 +1,4 @@
-## Databricks-Workspace-Setup
+## Databricks-cluster creation for workspace & loading datasets
 ### Databricks Workspace Setup and Data Loading
 ### Objective: Setted up a cluster, created a notebook, and loaded sample data
 
