@@ -17,6 +17,12 @@ I was using the community edition of databricks hence why not much configuration
 
 Waited for my cluster to start up. 
 
+
+It was successfully created.
+
+![Image](https://github.com/user-attachments/assets/7beb373e-cf92-4352-bca9-17e3dfc73dc3)
+
+
 --- 
 
 Launched the workspace and created a cluster, showing that it is up and running.
