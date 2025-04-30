@@ -7,5 +7,5 @@ topic-specific projects and end-to-end project
 - <b></b>
   - [Databricks-Workspace-Setup](https://github.com/DarrenDavy12/Databricks-Certification/blob/main/Databricks-Workspace-Setup.md)
 
-<b></b>
-Azure-CLI-Virtual-Machine-Deployment-with-Networking-and-Monitoring
+- <b></b>
+  -
