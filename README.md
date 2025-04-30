@@ -33,14 +33,20 @@ Launched the workspace and created a cluster, showing that it is up and running.
 data_path = "dbfs:/databricks-datasets/nyctaxi/tripdata/yellow/yellow_tripdata_2019-01.csv.gz"
 df = spark.read.csv(data_path, header=True, inferSchema=True)
 
+![image](https://github.com/user-attachments/assets/6e0b76d9-1943-4608-af44-d05264783e32)
+
 
 ## Step 3: Saved to DBFS
 df.write.mode("overwrite").parquet("/mnt/sample-data/nyc-taxi")
 
+![image](https://github.com/user-attachments/assets/02b38aee-1ee6-4c7f-b253-b1bc21261946)
 
 
 ## Step 4: Displayed sample data
 display(df.limit(10))
 
+![image](https://github.com/user-attachments/assets/5ace930a-dc7d-42cc-b407-6c7152a940f8)
 
+
+Overview:
 ![Image](https://github.com/user-attachments/assets/3dcf3fd5-f622-46b7-9150-7f7a71b7d1d1)
