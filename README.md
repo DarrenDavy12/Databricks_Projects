@@ -10,11 +10,12 @@ topic-specific projects and end-to-end project
 ***
 
 ## Step 1: Created a cluster (done via UI, ensured it's running)
-I am using the community edition of databricks hence why not much configuration options in image below.
+I was using the community edition of databricks hence why not much configuration options in image below.
 
 ![image](https://github.com/user-attachments/assets/26af636f-ddae-4945-8772-713b184f2338)
 
 
+Waited for my cluster to start up. 
 
 --- 
 
