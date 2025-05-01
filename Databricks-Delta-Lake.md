@@ -19,6 +19,8 @@ df.write.mode("overwrite").format("delta").save("/mnt/delta/nyc-taxi")
 ### Step 2: Updated the table
 spark.sql("UPDATE delta.`/mnt/delta/nyc-taxi` SET passenger_count = 0 WHERE passenger_count IS NULL")
 
+
+
 ---
 
 ### Step 3: Time travelled back to show old version 
