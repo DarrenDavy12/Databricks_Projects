@@ -9,3 +9,6 @@ topic-specific projects and end-to-end project
 
 - <b></b>
   - [Databricks-Delta-Lake](https://github.com/DarrenDavy12/Databricks-Certification/blob/7e72276b6ddbe2794b972bed4f30218d63f975e8/Databricks-Delta-Lake.md)
+
+- <b></b>
+  - [Databricks-Spark-SQL-ETL]
