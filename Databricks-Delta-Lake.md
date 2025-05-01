@@ -19,7 +19,7 @@ df.write.mode("overwrite").format("delta").save("/mnt/delta/nyc-taxi")
 ### Step 2: Updated the table
 spark.sql("UPDATE delta.`/mnt/delta/nyc-taxi` SET passenger_count = 0 WHERE passenger_count IS NULL")
 
-![Image](https://github.com/user-attachments/assets/6ed697a1-676b-4707-99e0-056d13ddde0d)
+![Image](https://github.com/user-attachments/assets/0bc74283-2d81-41a0-b8ff-6ac7867a2f07)
 
 ---
 
@@ -35,3 +35,4 @@ display(old_version.limit(10))
 ### Step 4: Optimize with Z-ordering to improve reading performance 
 spark.sql("OPTIMIZE delta.`/mnt/delta/nyc-taxi` ZORDER BY (tpep_pickup_datetime)")
 
+![image](https://github.com/user-attachments/assets/60fb9f96-9b51-448b-b541-9fc7e2e53ecf)
