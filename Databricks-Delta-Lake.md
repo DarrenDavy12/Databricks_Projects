@@ -27,9 +27,11 @@ spark.sql("UPDATE delta.`/mnt/delta/nyc-taxi` SET passenger_count = 0 WHERE pass
 old_version = spark.read.format("delta").option("versionAsOf", 0).load("/mnt/delta/nyc-taxi")
 display(old_version.limit(10))
 
+![image](https://github.com/user-attachments/assets/fd3334fc-a0aa-4702-933e-f8f1209f393b)
 
 
 ---
 
 ### Step 4: Optimize with Z-ordering to improve reading performance 
 spark.sql("OPTIMIZE delta.`/mnt/delta/nyc-taxi` ZORDER BY (tpep_pickup_datetime)")
+
