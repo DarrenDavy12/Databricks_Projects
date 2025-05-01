@@ -43,8 +43,4 @@ display(df.limit(10))
 
 
 
-### Overview:
-
-
-![Image](https://github.com/user-attachments/assets/3dcf3fd5-f622-46b7-9150-7f7a71b7d1d1)
 
