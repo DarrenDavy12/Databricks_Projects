@@ -13,7 +13,8 @@ USING DELTA
 LOCATION '/mnt/delta/nyc-taxi'
 """)
   
-![image](https://github.com/user-attachments/assets/c84b0a03-d115-4cff-8c0d-4b999c71b2ec)
+![image](https://github.com/user-attachments/assets/ba1adbcf-57d7-4799-947a-2c7f7fd1a4d3)
+
 
 
 ---
