@@ -14,7 +14,7 @@ LOCATION '/mnt/delta/nyc-taxi'
 """)
 
 
-![image](https://github.com/user-attachments/assets/ff3efa0e-3ebe-46fc-ab32-7f0767638b75)
+![Image](https://github.com/user-attachments/assets/388c2852-3ed6-4e7a-8c91-7b5b3dc435c3)
 
 
 ---
