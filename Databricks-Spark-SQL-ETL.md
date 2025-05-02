@@ -27,7 +27,7 @@ WHERE passenger_count IS NOT NULL AND trip_distance > 0
 
 ---
 
-### Step 3: Created a UDF
+### Step 3: Created a UDF (function)
 spark.sql("""
 CREATE FUNCTION calculate_fare_per_mile(fare FLOAT, distance FLOAT)
 RETURNS FLOAT
