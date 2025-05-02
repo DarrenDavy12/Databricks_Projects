@@ -22,7 +22,7 @@ FROM nyc_taxi
 WHERE passenger_count IS NOT NULL AND trip_distance > 0
 """)
 
-
+![Image](https://github.com/user-attachments/assets/49def860-9839-4c95-aad2-97428a5c45a5)
 
 
 ---
