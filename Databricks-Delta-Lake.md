@@ -12,7 +12,7 @@
 df = spark.read.csv("dbfs:/databricks-datasets/nyctaxi/tripdata/yellow/yellow_tripdata_2019-01.csv.gz", header=True)
 df.write.mode("overwrite").format("delta").save("/mnt/delta/nyc-taxi")
 
-![Image](https://github.com/user-attachments/assets/5f398429-4e5c-4ec1-a58e-94c59e2b52db)
+![Image](https://github.com/user-attachments/assets/31c64b1f-b1b7-4e15-93bb-7baf9246af99)
 
 ---
 
