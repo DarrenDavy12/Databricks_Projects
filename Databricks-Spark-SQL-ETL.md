@@ -1,5 +1,5 @@
 ## Spark SQL ETL Pipeline
-## Objective: Build an ETL pipeline using Spark SQL
+### Objective: Build an ETL pipeline using Spark SQL
 
 
 ### Step 1: Created a table
