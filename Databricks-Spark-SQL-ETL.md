@@ -51,4 +51,4 @@ FROM cleaned_taxi
 """).write.mode("overwrite").format("delta").save("/mnt/delta/transformed-taxi")
 
 
-
+![Image](https://github.com/user-attachments/assets/208a547d-4c1e-4a76-9854-99f7b8266723)
