@@ -12,9 +12,9 @@ CREATE TABLE IF NOT EXISTS nyc_taxi
 USING DELTA
 LOCATION '/mnt/delta/nyc-taxi'
 """)
-  
-![image](https://github.com/user-attachments/assets/ba1adbcf-57d7-4799-947a-2c7f7fd1a4d3)
 
+
+![image](https://github.com/user-attachments/assets/ff3efa0e-3ebe-46fc-ab32-7f0767638b75)
 
 
 ---
