@@ -34,6 +34,8 @@ RETURNS FLOAT
 RETURN fare / distance
 """)
 
+![Image](https://github.com/user-attachments/assets/827bca01-a5b1-4f50-8a16-6cb8a6221a93)
+
 ---
 
 ### Step 4: Transformed data
