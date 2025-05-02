@@ -9,6 +9,9 @@ USING DELTA
 LOCATION '/mnt/delta/nyc-taxi'
 """)
 
+![Image](https://github.com/user-attachments/assets/ed766f19-d73a-4e0b-9f5c-ac46e5435232)
+
+
 ---
 
 ### Step 2: Cleaned data (e.g., remove nulls)
