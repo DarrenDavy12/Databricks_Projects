@@ -8,8 +8,8 @@ CREATE TABLE IF NOT EXISTS nyc_taxi
 USING DELTA
 LOCATION '/mnt/delta/nyc-taxi'
 """)
-
-![Image](https://github.com/user-attachments/assets/ed766f19-d73a-4e0b-9f5c-ac46e5435232)
+  
+![image](https://github.com/user-attachments/assets/c84b0a03-d115-4cff-8c0d-4b999c71b2ec)
 
 
 ---
@@ -21,6 +21,9 @@ SELECT *
 FROM nyc_taxi
 WHERE passenger_count IS NOT NULL AND trip_distance > 0
 """)
+
+
+
 
 ---
 
