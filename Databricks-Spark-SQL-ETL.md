@@ -38,7 +38,7 @@ RETURN fare / distance
 ![Image](https://github.com/user-attachments/assets/827bca01-a5b1-4f50-8a16-6cb8a6221a93)
 
 Tip: Use `spark.sql (""" DROP FUNCTION <function_name> """)` to delete the functions if error saying there is one that still exists, 
-  afterwards continue with command above. 
+afterwards continue with command above. 
 
 
 
@@ -49,4 +49,6 @@ spark.sql("""
 SELECT *, calculate_fare_per_mile(total_amount, trip_distance) AS fare_per_mile
 FROM cleaned_taxi
 """).write.mode("overwrite").format("delta").save("/mnt/delta/transformed-taxi")
+
+
 
