@@ -6,7 +6,7 @@
 ![Image](https://github.com/user-attachments/assets/6c06ed37-266e-497a-a4d7-c34d6093f1dd)
 
 
----
+--
 
 ### Step 1: Created a Delta table using notebooks
 df = spark.read.csv("dbfs:/databricks-datasets/nyctaxi/tripdata/yellow/yellow_tripdata_2019-01.csv.gz", header=True)
