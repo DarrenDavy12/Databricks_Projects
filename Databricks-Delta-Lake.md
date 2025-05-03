@@ -5,7 +5,7 @@
 
 ![Image](https://github.com/user-attachments/assets/6c06ed37-266e-497a-a4d7-c34d6093f1dd)
 
-
+---
 
 
 ### Step 1: Created a Delta table using notebooks
@@ -15,7 +15,7 @@ df.write.mode("overwrite").format("delta").save("/mnt/delta/nyc-taxi")
 
 ![image](https://github.com/user-attachments/assets/cc672d2a-7f5d-428f-90c0-68e78e8d74b3)
 
-
+---
 
 
 ### Step 2: Updated the table
