@@ -30,7 +30,7 @@ SELECT *, fare_per_mile * 1.1 AS adjusted_fare_per_mile
 FROM temp_taxi
 """)
 
-![Image](https://github.com/user-attachments/assets/354d55a0-6a2a-42ec-ad99-85ff45d39457)
+![Image](https://github.com/user-attachments/assets/00f7c9c7-351e-4e1c-a24d-942a27127735)
 
 
 ### Step 4: Save to Delta
