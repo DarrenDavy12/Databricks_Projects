@@ -1,8 +1,15 @@
 ## PySpark ETL Pipeline
 ### Objective: Build an ETL pipeline using PySpark and Spark SQL
 
+### Prerequisite: Cluster setup
+
+![Image](https://github.com/user-attachments/assets/6c06ed37-266e-497a-a4d7-c34d6093f1dd)
+
+
 ### Step 1: Load data
 df = spark.read.format("delta").load("/mnt/delta/nyc-taxi")
+
+
 
 ### Step 2: Transform with PySpark
 cleaned_df = df.filter(df.passenger_count.isNotNull() & (df.trip_distance > 0))
