@@ -1,5 +1,5 @@
 ## Delta Lake Table Management and Optimization
-## Objective: Create, manage, and optimize a Delta table
+### Objective: Create, manage, and optimize a Delta table
 
 ### Prerequisite: Cluster setup
 
