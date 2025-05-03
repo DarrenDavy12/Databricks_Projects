@@ -10,8 +10,7 @@
 ### Step 1: Load data
 df = spark.read.format("delta").load("/mnt/delta/nyc-taxi")
 
-![Image](https://github.com/user-attachments/assets/f2fc4bb5-05f1-4f7f-925a-84903d185d7f)
-
+![Image](https://github.com/user-attachments/assets/00f7c9c7-351e-4e1c-a24d-942a27127735)
 
 
 ### Step 2: Transform with PySpark
