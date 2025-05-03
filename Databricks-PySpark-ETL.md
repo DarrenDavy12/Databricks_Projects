@@ -10,7 +10,7 @@
 ### Step 1: Load data
 df = spark.read.format("delta").load("/mnt/delta/nyc-taxi")
 
-![Image](https://github.com/user-attachments/assets/00f7c9c7-351e-4e1c-a24d-942a27127735)
+![Image](https://github.com/user-attachments/assets/32a56d11-39b6-4ebf-96dc-40f4730702cd)
 
 
 ### Step 2: Transform with PySpark
@@ -18,7 +18,7 @@ cleaned_df = df.filter(df.passenger_count.isNotNull() & (df.trip_distance > 0))
 cleaned_df = cleaned_df.withColumn("fare_per_mile", df.total_amount / df.trip_distance)
 
 
-![Image](https://github.com/user-attachments/assets/32a56d11-39b6-4ebf-96dc-40f4730702cd)
+
 
 
 
