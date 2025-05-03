@@ -18,7 +18,7 @@ cleaned_df = df.filter(df.passenger_count.isNotNull() & (df.trip_distance > 0))
 cleaned_df = cleaned_df.withColumn("fare_per_mile", df.total_amount / df.trip_distance)
 
 
-![Image](https://github.com/user-attachments/assets/a09a6daf-40ba-4591-9944-8cdd73adaaef)
+![Image](https://github.com/user-attachments/assets/32a56d11-39b6-4ebf-96dc-40f4730702cd)
 
 
 
