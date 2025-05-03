@@ -14,4 +14,4 @@ topic-specific projects and end-to-end project
   - [Databricks-Spark-SQL-ETL](https://github.com/DarrenDavy12/Databricks-Certification/blob/d37205aacfd8f0a53ac3d523be276984d176a683/Databricks-Spark-SQL-ETL.md)
 
 - <b></b>
-  - [Databricks-PySpark-ETL]
+  - [Databricks-PySpark-ETL](https://github.com/DarrenDavy12/Databricks-Certification/blob/dd3f25b92fdf3dcfb0cd4c2a33c91bf2897bfc2d/Databricks-PySpark-ETL.md)
