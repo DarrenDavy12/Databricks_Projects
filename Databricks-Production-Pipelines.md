@@ -9,6 +9,9 @@
 ![Image](https://github.com/user-attachments/assets/f98608f9-d809-4d73-b957-1bda539fb2de)
 
 
+![Image](https://github.com/user-attachments/assets/97fc4369-403e-49b1-9d49-5439ef6713a3)
+
+
 
 ##  Step 1: Reuse PySpark ETL code
 df = spark.read.format("delta").load("/mnt/delta/nyc-taxi")
@@ -26,7 +29,6 @@ cleaned_df.write.mode("overwrite").format("delta").save("/mnt/delta/production-t
 ### - Created a job in Databricks UI, link to this notebook
 
 
-![Image](https://github.com/user-attachments/assets/97fc4369-403e-49b1-9d49-5439ef6713a3)
 
 
 
