@@ -11,7 +11,7 @@
 --- 
 
 
-### Step 3: Loaded sample data (e.g., NYC Taxi dataset)
+### Step 2: Loaded sample data (e.g., NYC Taxi dataset)
 data_path = "dbfs:/databricks-datasets/nyctaxi/tripdata/yellow/yellow_tripdata_2019-01.csv.gz"
 df = spark.read.csv(data_path, header=True, inferSchema=True)
 
@@ -23,7 +23,7 @@ df = spark.read.csv(data_path, header=True, inferSchema=True)
 
 
 
-### Step 4: Saved to DBFS
+### Step 3: Saved to DBFS
 df.write.mode("overwrite").parquet("/mnt/sample-data/nyc-taxi")
 
 ![image](https://github.com/user-attachments/assets/02b38aee-1ee6-4c7f-b253-b1bc21261946)
@@ -34,7 +34,7 @@ df.write.mode("overwrite").parquet("/mnt/sample-data/nyc-taxi")
 
 ---
 
-### Step 5: Displayed sample data
+### Step 4: Displayed sample data
 display(df.limit(10))
 
 ![image](https://github.com/user-attachments/assets/5ace930a-dc7d-42cc-b407-6c7152a940f8)
