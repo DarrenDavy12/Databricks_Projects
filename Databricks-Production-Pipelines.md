@@ -17,7 +17,20 @@ cleaned_df.write.mode("overwrite").format("delta").save("/mnt/delta/production-t
 
 
 ## Step 2: Note: Job scheduling and permissions are set via UI
+
+
 ### - Created a job in Databricks UI, link to this notebook
+
+
+
+
+
 ### - Scheduled daily runs
+
+
+
 ### - Set permissions to restrict access to admin users
+
+
+
 ### - Monitored job runs via Databricks Workflows
