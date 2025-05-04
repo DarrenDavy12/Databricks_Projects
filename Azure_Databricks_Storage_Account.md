@@ -4,6 +4,9 @@ I created a storage account to store the container holding the sample data for f
 
 
 Performance: Standard 
+
+*** 
+
 Redundancy: LRS 
 
 
