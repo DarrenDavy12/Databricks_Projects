@@ -5,17 +5,13 @@
 
 
 ### Step 1: Created a cluster (done via UI, ensured it's running)
-I was using the community edition of databricks hence why not much configuration options in image below.
+I was using Azure databricks workspace through microsoft azure.
 
 ![Image](https://github.com/user-attachments/assets/1cd2fc80-24c6-42f9-a579-caec0824ed24)
 
 
 
 
-Waited for my cluster to start up. 
-
-
-It was successfully created.
 
 ![Image](https://github.com/user-attachments/assets/7beb373e-cf92-4352-bca9-17e3dfc73dc3)
 
