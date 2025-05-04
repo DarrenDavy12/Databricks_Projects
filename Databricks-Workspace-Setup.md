@@ -7,7 +7,9 @@
 ### Step 1: Created a cluster (done via UI, ensured it's running)
 I was using the community edition of databricks hence why not much configuration options in image below.
 
-![image](https://github.com/user-attachments/assets/26af636f-ddae-4945-8772-713b184f2338)
+![Image](https://github.com/user-attachments/assets/1cd2fc80-24c6-42f9-a579-caec0824ed24)
+
+
 
 
 Waited for my cluster to start up. 
