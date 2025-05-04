@@ -4,26 +4,9 @@
 ***
 
 
+### Step 1: Created a cluster on databricks community edition 
 
-### Step 1: Created a cluster (done via UI, ensured it's running)
-I was using Azure databricks workspace through microsoft azure.
-
-![Image](https://github.com/user-attachments/assets/1cd2fc80-24c6-42f9-a579-caec0824ed24)
-
-![Image](https://github.com/user-attachments/assets/dce10c2f-ebb3-4251-998d-91ccb41efa71)
-
-
-
----
-
-### Step 2: Created a folder called demo inside of the default workspace folder. 
-This is where I created the notebook to load the sample data,
-and the location in which the other notebooks will be kept too. 
-
-![Image](https://github.com/user-attachments/assets/e194b2d5-b0d1-4797-a98b-fa31e4caffde)
-
-
-
+![Image](https://github.com/user-attachments/assets/fcc7da1d-31c0-4340-b232-7f760c333526)
 
 --- 
 
