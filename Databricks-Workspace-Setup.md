@@ -20,10 +20,6 @@ I was using Azure databricks workspace through microsoft azure.
 
 
 
-
-![Image](https://github.com/user-attachments/assets/7beb373e-cf92-4352-bca9-17e3dfc73dc3)
-
-
 --- 
 
 
