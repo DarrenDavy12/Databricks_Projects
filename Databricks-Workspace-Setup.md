@@ -20,28 +20,44 @@ I was using Azure databricks workspace through microsoft azure.
 ![Image](https://github.com/user-attachments/assets/dce10c2f-ebb3-4251-998d-91ccb41efa71)
 
 
+
+---
+
+### Step 2: Created a folder called demo inside of the default workspace folder. 
+### This is where I created the notebook to load the sample data. 
+
+![Image](https://github.com/user-attachments/assets/e194b2d5-b0d1-4797-a98b-fa31e4caffde)
+
+
+
+
 --- 
 
 
-### Step 2: Loaded sample data (e.g., NYC Taxi dataset)
+### Step 3: Loaded sample data (e.g., NYC Taxi dataset)
 data_path = "dbfs:/databricks-datasets/nyctaxi/tripdata/yellow/yellow_tripdata_2019-01.csv.gz"
 df = spark.read.csv(data_path, header=True, inferSchema=True)
 
 
-![Image](https://github.com/user-attachments/assets/e194b2d5-b0d1-4797-a98b-fa31e4caffde)
-
 ![image](https://github.com/user-attachments/assets/6e0b76d9-1943-4608-af44-d05264783e32)
 
+--- 
 
 
-### Step 3: Saved to DBFS
+
+
+### Step 4: Saved to DBFS
 df.write.mode("overwrite").parquet("/mnt/sample-data/nyc-taxi")
 
 ![image](https://github.com/user-attachments/assets/02b38aee-1ee6-4c7f-b253-b1bc21261946)
 
 
 
-### Step 4: Displayed sample data
+
+
+---
+
+### Step 5: Displayed sample data
 display(df.limit(10))
 
 ![image](https://github.com/user-attachments/assets/5ace930a-dc7d-42cc-b407-6c7152a940f8)
