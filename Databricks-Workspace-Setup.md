@@ -24,7 +24,8 @@ I was using Azure databricks workspace through microsoft azure.
 ---
 
 ### Step 2: Created a folder called demo inside of the default workspace folder. 
-This is where I created the notebook to load the sample data. 
+This is where I created the notebook to load the sample data,
+and the location in which the other notebooks will be kept too. 
 
 ![Image](https://github.com/user-attachments/assets/e194b2d5-b0d1-4797-a98b-fa31e4caffde)
 
