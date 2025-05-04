@@ -10,8 +10,6 @@ cleaned_df = df.filter(df.passenger_count.isNotNull() & (df.trip_distance > 0))
 cleaned_df.write.mode("overwrite").format("delta").save("/mnt/delta/production-taxi")
 
 
-![Image](https://github.com/user-attachments/assets/f35e2c7f-ba41-4a6f-820f-6c430c3ecc09)
-
 
 
 
