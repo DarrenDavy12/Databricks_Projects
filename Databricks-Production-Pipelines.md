@@ -3,7 +3,7 @@
 
 
 
-### Prerequisite: Azure Databricks workspace
+### Prerequisite: Created Azure Databricks workspace
 
 
 ![Image](https://github.com/user-attachments/assets/f98608f9-d809-4d73-b957-1bda539fb2de)
