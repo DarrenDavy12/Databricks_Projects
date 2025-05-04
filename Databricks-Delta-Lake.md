@@ -1,11 +1,6 @@
 ## Delta Lake Table Management and Optimization
 ### Objective: Create, manage, and optimize a Delta table
 
-### Prerequisite: Cluster setup
-
-![Image](https://github.com/user-attachments/assets/6c06ed37-266e-497a-a4d7-c34d6093f1dd)
-
----
 
 
 ### Step 1: Created a Delta table using notebooks
