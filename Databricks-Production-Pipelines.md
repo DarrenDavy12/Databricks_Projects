@@ -26,6 +26,8 @@ cleaned_df.write.mode("overwrite").format("delta").save("/mnt/delta/production-t
 ### - Created a job in Databricks UI, link to this notebook
 
 
+![Image](https://github.com/user-attachments/assets/97fc4369-403e-49b1-9d49-5439ef6713a3)
+
 
 
 
