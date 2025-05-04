@@ -10,7 +10,7 @@ cleaned_df = df.filter(df.passenger_count.isNotNull() & (df.trip_distance > 0))
 cleaned_df.write.mode("overwrite").format("delta").save("/mnt/delta/production-taxi")
 
 
-
+![Image](https://github.com/user-attachments/assets/3a3ea3cd-e944-45e4-b96c-23b5b6bb2f8b)
 
 
 ## Step 2: Note: Job scheduling and permissions are set via UI
