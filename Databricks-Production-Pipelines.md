@@ -3,15 +3,6 @@
 
 
 
-### Prerequisite: Created Azure Databricks workspace
-
-
-![Image](https://github.com/user-attachments/assets/f98608f9-d809-4d73-b957-1bda539fb2de)
-
-
-![Image](https://github.com/user-attachments/assets/b3aa942f-3484-44f3-ad81-ac0ecda77bf4)
-
-
 
 ##  Step 1: Reuse PySpark ETL code
 df = spark.read.format("delta").load("/mnt/delta/nyc-taxi")
