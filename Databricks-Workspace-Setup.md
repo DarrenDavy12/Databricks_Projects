@@ -3,13 +3,6 @@
 
 ***
 
-### Prerequisite: Created and lauched workspace in using azure portal. 
-
-![Image](https://github.com/user-attachments/assets/758fecc4-dc65-41a5-b7ee-480d866a3280)
-
-
----
-
 
 
 ### Step 1: Created a cluster (done via UI, ensured it's running)
