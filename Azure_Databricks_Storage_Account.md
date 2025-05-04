@@ -17,5 +17,9 @@ Performance as Standard, and redundancy I choose LRS.
 ### Step 2: Once the account was deployed, I created a container called 'demo' which contains the nyc taxi .csv file sample data. 
 
 
+![Image](https://github.com/user-attachments/assets/51b7c94b-95df-4d7b-93cc-030d41520e60)
+
 
 ![Image](https://github.com/user-attachments/assets/c7475847-d146-45c1-a9bc-17e391a599bd)
+
+
