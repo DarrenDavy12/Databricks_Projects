@@ -16,7 +16,7 @@ data_path = "dbfs:/databricks-datasets/nyctaxi/tripdata/yellow/yellow_tripdata_2
 df = spark.read.csv(data_path, header=True, inferSchema=True)
 
 
-![image](https://github.com/user-attachments/assets/6e0b76d9-1943-4608-af44-d05264783e32)
+![Image](https://github.com/user-attachments/assets/eca723e6-9d2a-4c02-9f95-77d6f9bae96c)
 
 --- 
 
