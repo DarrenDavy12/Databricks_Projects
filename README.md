@@ -5,7 +5,7 @@ topic-specific projects and end-to-end project
 <h2>👨‍💻 Databricks Data Engineer Associate Certification Projects:</h2>
 
 - <b></b>
-  - [Databricks-Workspace-Setup]()
+  - [Databricks-Workspace-Setup](https://github.com/DarrenDavy12/Databricks-Certification/blob/main/Databricks-Workspace-Setup.md)
 
 - <b></b>
   - [Databricks-Delta-Lake](https://github.com/DarrenDavy12/Databricks-Certification/blob/7e72276b6ddbe2794b972bed4f30218d63f975e8/Databricks-Delta-Lake.md)
