@@ -3,7 +3,8 @@
 I created a storage account to store the container holding the sample data for file storage. 
 
 
-Performance: Standard, - Redundancy: LRS 
+Performance as Standard, and redundancy I choose LRS.
 
 
+![Image](https://github.com/user-attachments/assets/13ff405d-fd92-4a0f-becf-c7e944769263)
 
