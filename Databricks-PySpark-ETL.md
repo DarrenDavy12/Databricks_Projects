@@ -1,9 +1,6 @@
 ## PySpark ETL Pipeline
 ### Objective: Build an ETL pipeline using PySpark and Spark SQL
 
-### Prerequisite: Cluster setup
-
-![Image](https://github.com/user-attachments/assets/6c06ed37-266e-497a-a4d7-c34d6093f1dd)
 
 
 
