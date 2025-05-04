@@ -14,6 +14,11 @@ cleaned_df = df.filter(df.passenger_count.isNotNull() & (df.trip_distance > 0))
 cleaned_df.write.mode("overwrite").format("delta").save("/mnt/delta/production-taxi")
 
 
+
+
+
+
+
 ## Step 2: Note: Job scheduling and permissions are set via UI
 ### - Created a job in Databricks UI, link to this notebook
 ### - Scheduled daily runs
