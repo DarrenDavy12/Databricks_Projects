@@ -17,7 +17,7 @@ I was using Azure databricks workspace through microsoft azure.
 
 ![Image](https://github.com/user-attachments/assets/1cd2fc80-24c6-42f9-a579-caec0824ed24)
 
-
+![Image](https://github.com/user-attachments/assets/dce10c2f-ebb3-4251-998d-91ccb41efa71)
 
 
 --- 
