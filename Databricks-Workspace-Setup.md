@@ -1,7 +1,7 @@
 ## Databricks Workspace Setup
 ### Objective: Setted up a cluster, created a notebook, and loaded sample data
 
-
+***
 
 ### Prerequisite: Created and lauched workspace in using azure portal. 
 
