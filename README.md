@@ -8,10 +8,10 @@ topic-specific projects and end-to-end project
   - [Databricks-Workspace-Setup](https://github.com/DarrenDavy12/Databricks-Certification/blob/main/Databricks-Workspace-Setup.md)
 
 - <b></b>
-  - [Databricks-Delta-Lake](https://github.com/DarrenDavy12/Databricks-Certification/blob/7e72276b6ddbe2794b972bed4f30218d63f975e8/Databricks-Delta-Lake.md)
+  - [Databricks-Delta-Lake](https://github.com/DarrenDavy12/Databricks-Certification/blob/main/Databricks-Delta-Lake.md)
 
 - <b></b>
-  - [Databricks-Spark-SQL-ETL](https://github.com/DarrenDavy12/Databricks-Certification/blob/d37205aacfd8f0a53ac3d523be276984d176a683/Databricks-Spark-SQL-ETL.md)
+  - [Databricks-Spark-SQL-ETL](https://github.com/DarrenDavy12/Databricks-Certification/blob/main/Databricks-Spark-SQL-ETL.md)
 
 - <b></b>
-  - [Databricks-PySpark-ETL](https://github.com/DarrenDavy12/Databricks-Certification/blob/dd3f25b92fdf3dcfb0cd4c2a33c91bf2897bfc2d/Databricks-PySpark-ETL.md)
+  - [Databricks-PySpark-ETL](https://github.com/DarrenDavy12/Databricks-Certification/blob/main/Databricks-PySpark-ETL.md)
