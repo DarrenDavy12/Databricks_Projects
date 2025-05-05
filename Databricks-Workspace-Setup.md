@@ -9,14 +9,13 @@
 data_path = "dbfs:/databricks-datasets/nyctaxi/tripdata/yellow/yellow_tripdata_2019-01.csv.gz"
 df = spark.read.csv(data_path, header=True, inferSchema=True)
 
-![Image](https://github.com/user-attachments/assets/7257e16a-6b7a-46cc-b300-e36d45b37aa1)
-
+![Image](https://github.com/user-attachments/assets/1a16a661-bf55-4a6b-b477-061c032ef184)
 
 ### Step 3: Saved to DBFS
 
 df.write.mode("overwrite").parquet("/mnt/sample-data/nyc-taxi")
 
-![image](https://github.com/user-attachments/assets/c269ae81-8681-474b-814d-39668370259c)
+![Image](https://github.com/user-attachments/assets/e27b82ba-2224-4a04-8786-f81e5e1e18f4)
 
 
 
@@ -24,4 +23,4 @@ df.write.mode("overwrite").parquet("/mnt/sample-data/nyc-taxi")
 
 display(df.limit(10))
 
-![Image](https://github.com/user-attachments/assets/8bdc1976-31f9-4414-a606-fd526928e1f4)
+![Image](https://github.com/user-attachments/assets/1e7e6abb-9ffc-457d-bc1b-f3dbe5d75ed0)
