@@ -3,6 +3,7 @@
 
 ***
 
+### Prerequisite: 
 
 ### I needed somewhere to store the dataset as any cloud storage so I chose azure for a blob storage container. 
 
@@ -10,9 +11,16 @@
 ![Image](https://github.com/user-attachments/assets/fc39900a-6b1c-4c6c-a4c9-fdd14750452f)
 
 
-### Step 1: Created a cluster on databricks community edition 
 
-![Image](https://github.com/user-attachments/assets/fcc7da1d-31c0-4340-b232-7f760c333526)
+### Step 
+### 
+
+![Image](https://github.com/user-attachments/assets/d99cb7ea-b192-47c2-bdc5-0aae4c4052d2)
+
+![Image](https://github.com/user-attachments/assets/65b77b90-2b64-48f4-9659-83046d923668)
+
+![Image](https://github.com/user-attachments/assets/98706bcf-ebb2-4d5a-8cea-9dc9f7674a70)
+
 
 --- 
 
