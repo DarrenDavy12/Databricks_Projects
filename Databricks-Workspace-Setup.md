@@ -12,8 +12,8 @@
 
 
 
-### Step 
-### 
+### Step 1: Created storage account in azure. Made a container named 'demo' and imported the .csv file. 
+
 
 ![Image](https://github.com/user-attachments/assets/d99cb7ea-b192-47c2-bdc5-0aae4c4052d2)
 
