@@ -9,7 +9,8 @@
 
 
 ### Step 2: Loaded sample data
-# Use a file uploaded to /FileStore/ (e.g., a small CSV like yellow_tripdata_2019-01_subset.csv)
+### Used a file uploaded to /FileStore/ (e.g., a small CSV like yellow_tripdata_2019-01_subset.csv)
+
 data_path = "/FileStore/yellow_tripdata_2019-01_subset.csv"  # Update with your uploaded file path
 df = spark.read.csv(data_path, header=True, inferSchema=True)
 
@@ -20,7 +21,8 @@ df = spark.read.csv(data_path, header=True, inferSchema=True)
 
 
 ### Step 3: Avoided writing to DBFS
-# Instead of saving to Parquet, create a temporary view for further processing
+### Instead of saving to Parquet, created a temporary view for further processing
+
 df.createOrReplaceTempView("nyc_taxi_temp")
 
 
@@ -29,6 +31,7 @@ df.createOrReplaceTempView("nyc_taxi_temp")
 
 
 ### Step 4: Displayed sample data
+
 display(df.limit(10))
 
 
@@ -37,6 +40,7 @@ display(df.limit(10))
 
 
 ### Optional: Queried the temporary view to verify
+
 spark.sql("SELECT * FROM nyc_taxi_temp LIMIT 10").show()
 
 
