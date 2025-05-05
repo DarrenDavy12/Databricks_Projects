@@ -1,66 +1,47 @@
-## Databricks Workspace Setup
-### Objective: Setted up a cluster, created a notebook, and loaded sample data
-
-***
-
-### Prerequisite: 
-
-### I needed somewhere to store the dataset as any cloud storage so I chose azure for a blob storage container. 
-
-### First I made a storage account. 
-![Image](https://github.com/user-attachments/assets/fc39900a-6b1c-4c6c-a4c9-fdd14750452f)
-
-
---- 
+## Databricks Workspace Setup and Data Loading
+#### Objective: Set up a cluster, create a notebook, and load/display sample data in a free trial environment
 
 
 
-### Step 1: Created storage account in azure. Made a container named 'demo' and imported the .csv file. 
+### Step 1: Created a cluster (done via UI, ensure it's running)
 
 
-![Image](https://github.com/user-attachments/assets/d99cb7ea-b192-47c2-bdc5-0aae4c4052d2)
-
-![Image](https://github.com/user-attachments/assets/65b77b90-2b64-48f4-9659-83046d923668)
-
-![Image](https://github.com/user-attachments/assets/98706bcf-ebb2-4d5a-8cea-9dc9f7674a70)
 
 
-#### Also used a access key to access the container in databricks.
-
-
-![Image](https://github.com/user-attachments/assets/521ec15c-e8a4-49dc-a56a-dc2267d4c817)
-
---- 
-
-
-### Step 2: Loaded sample data (e.g., NYC Taxi dataset)
-data_path = "dbfs:/databricks-datasets/nyctaxi/tripdata/yellow/yellow_tripdata_2019-01.csv.gz"
+### Step 2: Loaded sample data
+# Use a file uploaded to /FileStore/ (e.g., a small CSV like yellow_tripdata_2019-01_subset.csv)
+data_path = "/FileStore/yellow_tripdata_2019-01_subset.csv"  # Update with your uploaded file path
 df = spark.read.csv(data_path, header=True, inferSchema=True)
 
 
-![Image](https://github.com/user-attachments/assets/eca723e6-9d2a-4c02-9f95-77d6f9bae96c)
+
+![Image](https://github.com/user-attachments/assets/0adc5d42-9c8b-40f9-a70f-1a431dd9b36e)
 
 
 
---- 
+### Step 3: Avoided writing to DBFS
+# Instead of saving to Parquet, create a temporary view for further processing
+df.createOrReplaceTempView("nyc_taxi_temp")
 
 
-
-### Step 3: Saved to DBFS
-df.write.mode("overwrite").parquet("/mnt/sample-data/nyc-taxi")
-
-![image](https://github.com/user-attachments/assets/02b38aee-1ee6-4c7f-b253-b1bc21261946)
+![Image](https://github.com/user-attachments/assets/b28b6df1-f3fe-4a88-bd91-c1525a2fa5f1)
 
 
-
-
-
----
 
 ### Step 4: Displayed sample data
 display(df.limit(10))
 
-![image](https://github.com/user-attachments/assets/5ace930a-dc7d-42cc-b407-6c7152a940f8)
+
+![Image](https://github.com/user-attachments/assets/f7689e14-5893-4d74-b784-bfa5b877ab76)
+
+
+
+### Optional: Queried the temporary view to verify
+spark.sql("SELECT * FROM nyc_taxi_temp LIMIT 10").show()
+
+
+![Image](https://github.com/user-attachments/assets/da98a439-4ef9-4be9-ba7c-3601844fe862)
+
 
 
 
