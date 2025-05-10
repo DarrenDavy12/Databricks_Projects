@@ -126,8 +126,7 @@ agg_df = transformed_df.groupBy("pickup_datetime").agg({
 }).withColumnRenamed("avg(total_amount)", "avg_fare")
 
 
-![Image](https://github.com/user-attachments/assets/f7fbc45c-a45d-47d6-9406-4713f761fe1a)
-
+![Image](https://github.com/user-attachments/assets/c04f5dad-2c4d-4b38-913c-fae457354585)
 
 
 
