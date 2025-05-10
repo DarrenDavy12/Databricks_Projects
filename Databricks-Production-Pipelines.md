@@ -24,6 +24,7 @@
 
 #### - Stored raw data csv. in container called 'demo'
 
+![Image](https://github.com/user-attachments/assets/84f7078b-ea07-4910-8615-7623c45d6853)
 
 
 
@@ -33,6 +34,7 @@ spark.conf.set(
     "<your-access-key>"
 )
 adls_path = "abfss://<container>@<your-storage-account>.dfs.core.windows.net/"
+
 
 
 
