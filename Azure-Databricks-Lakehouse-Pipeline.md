@@ -142,6 +142,7 @@ transformed_df.write.mode("overwrite").format("delta").save(delta_path)
 #### Optimize Delta table
 spark.sql(f"OPTIMIZE delta.`{delta_path}` ZORDER BY (pickup_datetime)")
 
+![Image](https://github.com/user-attachments/assets/dce26e38-36d9-483b-8d6d-fbdb374859d3)
 
 
 
@@ -151,6 +152,7 @@ CREATE TABLE IF NOT EXISTS taxi_weather
 USING DELTA
 LOCATION '{delta_path}'
 """)
+
 
 
 
