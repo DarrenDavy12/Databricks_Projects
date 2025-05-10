@@ -135,12 +135,13 @@ agg_df = transformed_df.groupBy("pickup_datetime").agg({
 delta_path = adls_path + "delta/taxi_weather"
 transformed_df.write.mode("overwrite").format("delta").save(delta_path)
 
-
+![Image](https://github.com/user-attachments/assets/ce0a9d4c-e064-4b1d-9b06-609d7d514b5c)
 
 
 
 #### Optimize Delta table
 spark.sql(f"OPTIMIZE delta.`{delta_path}` ZORDER BY (pickup_datetime)")
+
 
 
 
