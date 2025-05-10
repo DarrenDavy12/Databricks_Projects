@@ -37,7 +37,7 @@
 
 
 
-#### - Configured ADLS Gen2 credentials 
+#### Step 1: - Configured ADLS Gen2 credentials 
 spark.conf.set(
     "fs.azure.account.key.<your-storage-account>.dfs.core.windows.net",
     "<your-access-key>"
@@ -72,11 +72,11 @@ weather_df = spark.createDataFrame(weather_data, ["date", "temperature", "condit
 
 
 
-
-
 #### Save raw data to ADLS
 taxi_df.write.mode("overwrite").parquet(adls_path + "raw/taxi")
 weather_df.write.mode("overwrite").parquet(adls_path + "raw/weather")
+
+![image](https://github.com/user-attachments/assets/2388ef63-d06e-48b4-ac19-3b9204e753fe)
 
 
 
@@ -88,6 +88,7 @@ cleaned_taxi_df = taxi_df.filter(
     (taxi_df.trip_distance > 0)
 ).withColumnRenamed("tpep_pickup_datetime", "pickup_datetime")
 
+![Image](https://github.com/user-attachments/assets/c85a4b16-75a9-4208-ad7c-d70b53d1ab7a)
 
 
 
