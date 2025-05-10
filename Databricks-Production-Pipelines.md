@@ -11,18 +11,18 @@
 #### - Created a storage account in Azure and made an container to store the raw dataset 'nyc-taxi'
 
 
-##### - Storage confifguration 
+#### - Storage confifguration 
 
 ![image](https://github.com/user-attachments/assets/e2204a30-a86e-444a-82b5-ad16f4996982)
 
-##### - Enabled hierarchical namespace
+#### - Enabled hierarchical namespace
 
 ![Image](https://github.com/user-attachments/assets/1b3a7787-15ea-4a7e-8a72-fdca234791f2)
 
 
 
 
-##### - Stored raw data csv. in container called 'demo'
+#### - Stored raw data csv. in container called 'demo'
 
 
 
