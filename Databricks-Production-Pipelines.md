@@ -10,11 +10,11 @@
 
 #### - Created a storage account in Azure and made an container to store the raw dataset 'nyc-taxi'
 
---- 
 
 #### - Storage confifguration 
 
 ![image](https://github.com/user-attachments/assets/e2204a30-a86e-444a-82b5-ad16f4996982)
+
 
 #### - Enabled hierarchical namespace
 
@@ -22,16 +22,22 @@
 
 
 
-
 #### - Stored raw data csv. in container called 'demo'
 
 ![Image](https://github.com/user-attachments/assets/84f7078b-ea07-4910-8615-7623c45d6853)
 
+![Image](https://github.com/user-attachments/assets/3dcc3bb4-77f4-4b9b-9f59-61ec94039acf)
 
 
 
 
-### - Configured ADLS Gen2 credentials (replace with your details)
+#### Copied the access key 
+
+![Image](https://github.com/user-attachments/assets/c0e54509-70c0-4916-9dfe-d4b3c11294b2)
+
+
+
+#### - Configured ADLS Gen2 credentials 
 spark.conf.set(
     "fs.azure.account.key.<your-storage-account>.dfs.core.windows.net",
     "<your-access-key>"
@@ -39,8 +45,7 @@ spark.conf.set(
 adls_path = "abfss://<container>@<your-storage-account>.dfs.core.windows.net/"
 
 
-![Image](https://github.com/user-attachments/assets/3dcc3bb4-77f4-4b9b-9f59-61ec94039acf)
-
+![Image](https://github.com/user-attachments/assets/ea0b73c4-1196-4ad8-8dca-bb083279ef9a)
 
 
 
