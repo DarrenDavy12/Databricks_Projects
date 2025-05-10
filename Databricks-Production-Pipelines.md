@@ -45,7 +45,7 @@ spark.conf.set(
 adls_path = "abfss://<container>@<your-storage-account>.dfs.core.windows.net/"
 
 
-![Image](https://github.com/user-attachments/assets/ea0b73c4-1196-4ad8-8dca-bb083279ef9a)
+![Image](https://github.com/user-attachments/assets/3ba5fed0-aa00-4765-a338-e270daac7e7a)
 
 
 
