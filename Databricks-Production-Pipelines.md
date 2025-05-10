@@ -21,7 +21,6 @@
 
 
 
-
 #### - Stored raw data csv. in container called 'demo'
 
 ![Image](https://github.com/user-attachments/assets/84f7078b-ea07-4910-8615-7623c45d6853)
@@ -36,6 +35,9 @@ spark.conf.set(
 adls_path = "abfss://<container>@<your-storage-account>.dfs.core.windows.net/"
 
 
+![Image](https://github.com/user-attachments/assets/3dcc3bb4-77f4-4b9b-9f59-61ec94039acf)
+
+
 
 
 
@@ -43,6 +45,7 @@ adls_path = "abfss://<container>@<your-storage-account>.dfs.core.windows.net/"
 #### Loaded NYC Taxi dataset from DBFS
 taxi_path = "dbfs:/databricks-datasets/nyctaxi/tripdata/yellow/yellow_tripdata_2019-01.csv.gz"
 taxi_df = spark.read.csv(taxi_path, header=True, inferSchema=True)
+
 
 
 
