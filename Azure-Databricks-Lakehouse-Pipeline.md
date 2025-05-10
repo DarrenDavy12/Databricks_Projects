@@ -96,6 +96,7 @@ cleaned_taxi_df = taxi_df.filter(
 cleaned_taxi_df.createOrReplaceTempView("taxi_temp")
 weather_df.createOrReplaceTempView("weather_temp")
 
+![Image](https://github.com/user-attachments/assets/c3194ec5-1dff-4721-b14c-7434c296c0aa)
 
 
 
@@ -113,6 +114,8 @@ JOIN weather_temp w
 ON DATE(t.pickup_datetime) = w.date
 """)
 
+![Image](https://github.com/user-attachments/assets/109eb63f-19fa-43d7-81a1-f4d121801c67)
+
 
 
 
@@ -121,6 +124,8 @@ agg_df = transformed_df.groupBy("pickup_datetime").agg({
     "total_amount": "avg",
     "passenger_count": "sum"
 }).withColumnRenamed("avg(total_amount)", "avg_fare")
+
+
 
 
 
