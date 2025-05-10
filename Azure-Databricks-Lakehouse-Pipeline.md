@@ -126,6 +126,7 @@ agg_df = transformed_df.groupBy("pickup_datetime").agg({
 }).withColumnRenamed("avg(total_amount)", "avg_fare")
 
 
+![Image](https://github.com/user-attachments/assets/f7fbc45c-a45d-47d6-9406-4713f761fe1a)
 
 
 
@@ -134,6 +135,9 @@ agg_df = transformed_df.groupBy("pickup_datetime").agg({
 #### Save transformed data to Delta Lake
 delta_path = adls_path + "delta/taxi_weather"
 transformed_df.write.mode("overwrite").format("delta").save(delta_path)
+
+
+
 
 
 #### Optimize Delta table
