@@ -1,5 +1,5 @@
 ## End-to-End Azure Databricks Data Lakehouse Pipeline
-### Objective: Build a scalable pipeline for data ingestion, transformation, storage, visualization, and automation
+### Objective: Built a scalable pipeline for data ingestion, transformation, storage, visualization, and automation
 
 ### Step 1: Setup and Configuration
 #### - Ensure Azure Databricks cluster is running (use free trial)
@@ -7,7 +7,27 @@
 ![Image](https://github.com/user-attachments/assets/0b4a738b-88d5-42ee-853b-25e6243c136a)
 
 
-### - Configure ADLS Gen2 credentials (replace with your details)
+
+#### - Created a storage account in Azure and made an container to store the raw dataset 'nyc-taxi'
+
+
+##### - Storage confifguration 
+
+![image](https://github.com/user-attachments/assets/e2204a30-a86e-444a-82b5-ad16f4996982)
+
+##### - Enabled hierarchical namespace
+
+![Image](https://github.com/user-attachments/assets/1b3a7787-15ea-4a7e-8a72-fdca234791f2)
+
+
+
+
+##### - Stored raw data csv. in container called 'demo'
+
+
+
+
+### - Configured ADLS Gen2 credentials (replace with your details)
 spark.conf.set(
     "fs.azure.account.key.<your-storage-account>.dfs.core.windows.net",
     "<your-access-key>"
@@ -17,11 +37,12 @@ adls_path = "abfss://<container>@<your-storage-account>.dfs.core.windows.net/"
 
 
 
-
 ### Step 2: Data Ingestion
-#### Load NYC Taxi dataset from DBFS
+#### Loaded NYC Taxi dataset from DBFS
 taxi_path = "dbfs:/databricks-datasets/nyctaxi/tripdata/yellow/yellow_tripdata_2019-01.csv.gz"
 taxi_df = spark.read.csv(taxi_path, header=True, inferSchema=True)
+
+
 
 #### Create a simulated weather dataset
 from pyspark.sql.functions import lit
