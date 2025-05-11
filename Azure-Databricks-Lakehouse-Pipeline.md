@@ -184,3 +184,5 @@ GROUP BY DATE(pickup_datetime)
 #### Display sample results
 display(transformed_df.limit(10))
 display(agg_df.limit(10))
+
+![Image](https://github.com/user-attachments/assets/aedd63fe-c67c-4be2-b097-03e8b4e3e351)
